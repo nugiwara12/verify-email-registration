@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="{{ asset('admin_assets/css/sidebar-icon.css') }}">
 
 @auth
-<ul class="navbar-nav sidebar" style="background: linear-gradient(180deg, #00008B 10%, #37802b 100%)"
+<ul class="navbar-nav sidebar" style="background: linear-gradient(180deg, #ac0707 10%, #690b1f 100%)"
     id="accordionSidebar">
 
     <!-- Sidebar - Brand -->
