@@ -1,0 +1,67 @@
+/* styles.css */
+
+
+/* Grid layout for posts */
+.grid {
+    display: row;
+    width: 65%;
+    justify-content: space-between;
+    gap: 2rem; /* Gap between grid items */
+}
+
+/* Post container styles */
+.flex-col {
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff; /* White background color */
+    border-radius: 1.5rem; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(6, 5, 5, 0.1); /* Box shadow */
+    overflow: hidden;
+    transition: transform 0.2s; /* Smooth hover transition */
+}
+
+.flex-col:hover {
+    transform: translateY(20px); /* Move up slightly on hover */
+}
+
+/* Post title styles */
+.text-xl {
+    font-size: 2.25rem; /* 20px */
+    font-weight: bold;
+    text-align: center;
+    color: black;
+}
+
+/* Post content styles */
+.text-base {
+    font-size: 1.70rem; /* 16px */
+    color: #000; 
+    text-align: center;
+}
+
+/* Author and date styles */
+.text-sm {
+    font-size: 1.45rem; /* 14px */
+    color: #000; /* Light gray text color */
+    margin-top: 0.5rem; /* Space above author and date */
+    text-align: center;
+}
+
+
+/* Style the "Print" and "Excel" buttons */
+.buttons-print, .buttons-excel {
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+/************SHOW.BLADE.PHP************/
+
+
+
+
